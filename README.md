@@ -1,68 +1,58 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Boulder Treehouse is a website providing detail and contact information for the premiere treehouse contractor serving the Denver/Boulder/Fort Collins Metro areas. This website provides both content and the ability to purchase treehouse plans.
 
-In the project directory, you can run:
+Deployed Link:
+### Deployed Link:
 
-### `npm start`
+[Google.com as a Placeholder](google.com)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Wireframes:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+A style guide
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Color Scheme:
 
-### `npm run build`
+https://coolors.co/eca400-eaf8bf-006992-27476e-001d4a
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Font: Releway 900 Black
 
-### `npm run eject`
+<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+font-family: 'Raleway', sans-serif;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Planning: Planning Board Placeholder
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+### Planning:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Trello Board Link:
+### Trello Board Link:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Schema/ERD for Database ERD
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Server Routes:
+### Server Routes:
 
-### Analyzing the Bundle Size
+Plan Users POST /users Create a new user
+Plan Users
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+POST /users Create a new user
+POST /token User login
+DELETE /token logout user
+GET /users/:id Retrieve user information
+Create Profile POST /Create a profile
+GET /Retrieve existing profile GET /favorites/:id Retrieve a single favorite Add Links (Games)
 
-### Making a Progressive Web App
+Create Profile
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+POST /Create a profile
+GET /Retrieve existing profile
+GET /favorites/:id Retrieve a single favorite Add
