@@ -10,7 +10,7 @@ Boulder Treehouse is a website providing detail and contact information for the 
 ### Wireframes:
 
 
-A style guide
+### A style guide
 
 ### Color Scheme:
 
@@ -22,20 +22,19 @@ https://coolors.co/eca400-eaf8bf-006992-27476e-001d4a
 
 Google Fonts Raleway 900 Black
 
-<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+https://fonts.googleapis.com/css?family=Raleway:900
 
-font-family: 'Raleway', sans-serif;
+css font-family: 'Raleway', sans-serif;
 
 
-Planning: Planning Board Placeholder
-```
 
-```
 ### Planning:
 
 
 
 ### Trello Board Link:
+
+https://trello.com/b/S8J4nudK/treehouse-boulder
 
 
 ### Schema/ERD for Database ERD
