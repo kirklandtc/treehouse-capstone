@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Project Description:
+
 Boulder Treehouse is a website providing detail and contact information for the premier treehouse contractor serving the Denver/Boulder/Fort Collins Metro areas. This website provides both content and the ability to purchase treehouse plans.
 
 
@@ -29,8 +31,6 @@ css font-family: 'Raleway', sans-serif;
 
 
 ### Planning:
-
-
 
 ### Trello Board Link:
 
