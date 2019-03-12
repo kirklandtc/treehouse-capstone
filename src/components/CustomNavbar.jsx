@@ -34,7 +34,11 @@ class CustomNavbar extends Component {
      </Nav>
 
   </Navbar.Collapse>
+
 </Navbar>
+
+
+
     )
   }
 }

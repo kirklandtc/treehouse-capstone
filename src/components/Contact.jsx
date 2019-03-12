@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavDropdown, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Container, Col, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Contact.css';
 
