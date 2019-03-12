@@ -5,7 +5,7 @@ nav.navbar, .navbar-default {
 
 .navbar-default {
   background-image: none;
-  border: none;
+  border: 2px, black;
   border-radius: 0;
 }
 
