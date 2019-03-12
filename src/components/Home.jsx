@@ -11,7 +11,7 @@ export default class Home extends Component {
           <h2>Treehouse</h2>
           <p>The Best Way to TreeHouse</p>
           <Link to="/about">
-            <Button bsStyle="primary">Learn More</Button>
+            <Button variant="info">Learn More</Button>
           </Link>
         </Jumbotron>
         <Row className="show-grid text-center">

@@ -1,5 +1,7 @@
 nav.navbar, .navbar-default {
   background-color: #27476e !important;
+  padding-right: 5px;
+
 }
 
 
@@ -13,6 +15,11 @@ nav.navbar, .navbar-default {
   color: white;
 }
 
+.nav-item {
+  padding: 10px;
+  padding-bottom: 2px;
+}
+
 .navbar-default .navbar-brand {
   color: white;
 }
@@ -23,6 +30,7 @@ nav.navbar, .navbar-default {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
+
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
