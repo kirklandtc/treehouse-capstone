@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import './News.css';
 
 
-class About extends Component {
+class News extends Component {
   render() {
     return (
       <div>
@@ -24,4 +24,4 @@ class About extends Component {
 }
 
 
-export default About
+export default News

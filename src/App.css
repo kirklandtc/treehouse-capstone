@@ -2,5 +2,6 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #eca400;
-  border:2px, black;
+  border: 5px, black;
+  opacity: 10%
 }

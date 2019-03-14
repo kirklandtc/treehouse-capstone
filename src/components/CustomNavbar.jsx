@@ -29,7 +29,9 @@ class CustomNavbar extends Component {
         Contact
      </Navbar.Brand>
 
-
+     <Navbar.Brand eventKey={5} componentClass={Link} href="/plans" to="/plans">
+        Buy Plans
+     </Navbar.Brand>
 
      </Nav>
 

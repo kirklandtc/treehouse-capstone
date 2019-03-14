@@ -6,6 +6,7 @@ import About from './components/About';
 import News from './components/News';
 import Navbar from './components/CustomNavbar';
 import Contact from './components/Contact';
+import Plans from './components/Plans';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
           <Route path="/contact" component={Contact} />
+          <Route path="/Plans" component={Plans} />
         </div>
       </Router>
     );
