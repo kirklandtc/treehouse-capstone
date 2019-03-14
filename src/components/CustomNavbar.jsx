@@ -8,7 +8,7 @@ class CustomNavbar extends Component {
   render () {
     return (
 
-<Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+<Navbar  collapseOnSelect expand="lg" bg="light" variant="dark">
   {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
   <Navbar.Brand eventKey={1} componentClass={Link} href="/" to="/">
         Home
