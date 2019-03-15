@@ -13,3 +13,7 @@
   border-radius: 0;
   background-color: #001d4a;
 }
+
+.container-fluid {
+  padding-top: 2em;
+}

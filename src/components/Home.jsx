@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import { Jumbotron, Card, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
 
 export default class Home extends Component {
@@ -10,6 +10,16 @@ export default class Home extends Component {
         <Jumbotron>
           <h2>Treehouse</h2>
           <p>The Best Way to TreeHouse</p>
+
+          <p>This painting comes right out of your heart. Clouds are free.
+            They just float around the sky all day and have fun.
+            Think about a cloud. Just float around and be there. The little tiny Tim easels will let you down.
+            Isn't that fantastic? Mix your color marbly don't mix it dead.</p>
+
+          <p>Tree trunks grow however makes them happy.
+            We must be quiet, soft and gentle. There isn't a rule.
+            You just practice and find out which way works best for you.</p>
+
           <Link to="/about">
             <Button variant="info">Learn More</Button>
           </Link>
