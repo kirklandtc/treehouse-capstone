@@ -1,4 +1,4 @@
-nav.navbar, .navbar-default {
+.navbar, .navbar-default {
   background-color: #27476e !important;
   padding-right: 5px;
 
@@ -41,4 +41,9 @@ nav.navbar, .navbar-default {
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: white;
   background-color: transparent;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }

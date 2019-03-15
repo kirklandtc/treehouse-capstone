@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavDropdown, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Card } from 'react-bootstrap/Card'
 import { Link } from 'react-router-dom';
 import './CustomNavbar.css';
 
@@ -31,6 +32,7 @@ class CustomNavbar extends Component {
 
      <Navbar.Brand eventKey={5} componentClass={Link} href="/plans" to="/plans">
         Buy Plans
+
      </Navbar.Brand>
 
      </Nav>

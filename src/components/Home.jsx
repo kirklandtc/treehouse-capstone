@@ -38,9 +38,9 @@ export default class Home extends Component {
             <p>YES</p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/USETHIS2TREEHOUSE-3Depositphotos_135854308_xl-2015 Cropped.jpg" square className="profile-pic"/>
+            <Image src="assets/TREEHOUSE-8Depositphotos_5592661_xl-2015 Cropped.jpg" square className="profile-pic"/>
             <h3>Carpenter</h3>
-            <p>T</p>
+            <p>This is the treehouse for the child who has everything</p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
             <Image src="assets/FREEtree-2254979_960_720 Cropped.jpg" square className="profile-pic"/>
