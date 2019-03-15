@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import Photo4 from '../assets/USETHISHEADER@Depositphotos_19710159_xl-2015.jpg';
+
 import './News.css';
 
 
@@ -7,7 +9,7 @@ class News extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/USETHISHEADER@Depositphotos_19710159_xl-2015.jpg" className="header-image" />
+        <Image src={Photo4} className="header-image" />
         <Container-Fluid>
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}

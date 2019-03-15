@@ -5,3 +5,9 @@ body {
   border: 5px, black;
   opacity: 10%
 }
+
+.jumbotron {
+  margin-bottom: 4em;
+  background-color: #eaf8bf;
+  border: 2px, grey;
+}

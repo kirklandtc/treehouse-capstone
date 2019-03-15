@@ -25,5 +25,9 @@
 }
 
 .image {
-  border-color: black
+  border-color: black;
+}
+
+.card-body {
+  border-color: black;
 }

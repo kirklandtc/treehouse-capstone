@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Col, Image } from 'react-bootstrap'
+import Photo2 from '../assets/USETHISHEADERDepositphotos_131701088_xl-2015 Cropped.jpg';
 import './About.css'
 
 export default class About extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/USETHISHEADERDepositphotos_131701088_xl-2015 Cropped.jpg" className="header-image" />
+        <Image src={Photo2} className="header-image" />
         <Container-Fluid>
           <Col xs={12} sm={8} smOffset={2}>
             <Image src="/Users/thomaskirkland/g106/treehouse-capstone/public/assets/USETHISboard-carpenter-carpentry-271628 Cropped.jpg" className="about-profile-pic" />

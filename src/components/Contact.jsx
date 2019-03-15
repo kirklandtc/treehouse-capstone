@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Col, Image, Row, Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Photo1 from '../assets/USETHISHEADER$417352-unsplash Cropped.jpg';
 import './Contact.css';
 
 class Contact extends Component {
@@ -8,7 +9,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <Image src="assets/USETHISHEADER$417352-unsplash Cropped.jpg" className="header-image" />
+        <Image src={Photo1} className="header-image" />
         <Container-Fluid>
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
