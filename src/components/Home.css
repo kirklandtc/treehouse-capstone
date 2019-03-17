@@ -4,6 +4,7 @@
   margin-bottom: 4em;
   background-color: #eaf8bf;
   border: 2px, grey;
+  padding-right: 2px;
 }
 .person-wrapper {
   margin-bottom: 2em;
@@ -28,6 +29,14 @@
   border-color: black;
 }
 
-.card-body {
-  border-color: black;
+.card {
+  border-color: #001d4a;
+}
+
+.body {
+  position: center;
+}
+
+.navbar {
+  padding-right: 2px;
 }
