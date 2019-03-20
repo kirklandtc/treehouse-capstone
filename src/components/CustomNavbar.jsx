@@ -11,6 +11,8 @@ class CustomNavbar extends Component {
 
 <Navbar  collapseOnSelect expand="lg" bg="light" variant="dark">
 
+  <a className1="Navbar.Brand"><img src="assets2/thb-logo.svg" height= "40px"/></a>
+
   {/* <a className="navbar-brand"><img src="thb-logo.svg" alt="logo"></a> */}
 
 
@@ -23,7 +25,7 @@ class CustomNavbar extends Component {
   <Navbar.Collapse id="responsive-navbar-nav">
 
 
-    <Nav className="mr-auto">
+    <Nav className2="mr-auto">
       {/* <Nav.Link href="#features">Features</Nav.Link> */}
       <Navbar.Brand eventKey={2} componentClass={Link} href="/about" to="/about">
         About

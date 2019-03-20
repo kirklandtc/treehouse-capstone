@@ -80,7 +80,7 @@ export default class Home extends Component {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="assets2/TREEHOUSE-8Depositphotos_5592661_xl-2015 Cropped.jpg" />
+    <Card.Img variant="top" src="assets2/USETHISTREEHOUSE-2Depositphotos_31389319_xl-2015 Cropped.jpg"/>
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -93,7 +93,7 @@ export default class Home extends Component {
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="assets2/USETHISTREEHOUSE-2Depositphotos_31389319_xl-2015 Cropped.jpg"/>
+    <Card.Img variant="top" src="assets2/TREEHOUSE-8Depositphotos_5592661_xl-2015 Cropped.jpg"/>
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -154,6 +154,17 @@ export default class Home extends Component {
 
         </Row>
       </Container-Fluid>
+      /* <Container-Fluid>
+      <footer class="fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container">
+          <h3>
+          Treehouse Boulder 2019 all rights reserved.
+          </h3>
+        </div>
+      </footer>
+    </Container-Fluid> */
+
+
     )
   }
 }
