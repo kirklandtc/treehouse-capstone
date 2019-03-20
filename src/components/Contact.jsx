@@ -22,6 +22,15 @@ class Contact extends Component {
            <Col>
           <Form>
             <Form.Row>
+
+
+            <Form.Group as={Col} controlId="fullName">
+            <Form.Label>Full Name</Form.Label>
+            <Form.Control type="fullName" placeholder="Full Name" />
+            </Form.Group>
+
+
+
               <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />

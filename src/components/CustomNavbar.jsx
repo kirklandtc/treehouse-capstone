@@ -10,12 +10,19 @@ class CustomNavbar extends Component {
     return (
 
 <Navbar  collapseOnSelect expand="lg" bg="light" variant="dark">
+
+  {/* <a className="navbar-brand"><img src="thb-logo.svg" alt="logo"></a> */}
+
+
   {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-  <Navbar.Brand eventKey={1} componentClass={Link} href="/" to="/">
+  <Navbar.Brand
+    eventKey={1} componentClass={Link} href="/" to="/">
         Home
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
+
+
     <Nav className="mr-auto">
       {/* <Nav.Link href="#features">Features</Nav.Link> */}
       <Navbar.Brand eventKey={2} componentClass={Link} href="/about" to="/about">
