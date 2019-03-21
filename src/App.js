@@ -7,18 +7,34 @@ import News from './components/News';
 import Navbar from './components/CustomNavbar';
 import Contact from './components/Contact';
 import Plans from './components/Plans';
+import Footer from './components/Footer';
 
 class App extends Component {
+
+  state={
+    treehouses:[]
+  }
+
+  async componentDidMount(){
+  const data=await fetch('http://localhost:3000/treehouses')
+  const treehouses=await data.json()
+  this.setState({
+    treehouses:treehouses
+  })
+  console.log("hello",treehouses)
+}
   render() {
+    console.log(this.state)
     return (
       <Router>
         <div>
           <Navbar />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={()=> <Home treehouses={this.state.treehouses}/>} />
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
           <Route path="/contact" component={Contact} />
           <Route path="/Plans" component={Plans} />
+          {/* <Footer /> */}
         </div>
       </Router>
     );

@@ -1,10 +1,56 @@
-.header-image {
+.navbar, .navbar-default {
+  background-color: #27476e !important;
+  padding-right: 8px;
+  position: fixed;
+  top: 0;
   width: 100%;
-  margin-top: -2em;
-  margin-bottom: 2em;
+  z-index: 1;
 }
 
-.about-profile-pic {
-  float: left;
-  margin: 0 1em 1em 0;
+
+.navbar-default {
+  background-image: none;
+  border: 2px, black;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.nav-item {
+  padding: 10px;
+  padding-bottom: 2px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+
+}
+
+.thb{
+  margin-right: 8px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
 }

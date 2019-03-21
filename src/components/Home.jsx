@@ -2,9 +2,11 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { Jumbotron, Card, CardDeck, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
+import CardComponent from './CardComponent';
 
 export default class Home extends Component {
   render() {
+      console.log("hello")
     return (
       <Container-Fluid>
         <Jumbotron>
@@ -66,7 +68,12 @@ export default class Home extends Component {
         <Row>
 
   <CardDeck>
-  <Card border="info">
+{
+  this.props.treehouses.map(treehouse=>{
+    return <CardComponent treehouse={treehouse}/>
+  })
+}
+  {/* <Card border="info">
     <Card.Img variant="top" src="assets2/FREEtree-2254979_960_720 Cropped.jpg" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -148,7 +155,7 @@ export default class Home extends Component {
     <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
-  </Card>
+  </Card> */}
 </CardDeck>;
 
 

@@ -1,7 +1,11 @@
 .navbar, .navbar-default {
   background-color: #27476e !important;
+  opacity: 50%;
   padding-right: 8px;
-
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 
@@ -33,6 +37,10 @@
 
 }
 
+.thb{
+  margin-right: 8px;
+}
+
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: white;
   background-color: transparent;
@@ -46,10 +54,4 @@
 .sticky-nav {
   position: sticky;
   top: 0;
-}
-
-.className1 {
-  padding: 8px;
-  padding-right: 4px;
-
 }

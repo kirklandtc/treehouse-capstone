@@ -14,12 +14,15 @@ class Plans extends Component {
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
             <h3>Buy incredible Treehouse plans here</h3>
-            <p>If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. Zip. That easy. Just think about these things in your mind and drop em' on canvas. We need a shadow side and a highlight side. Don't kill all your dark areas - you need them to show the light. Just relax and let it flow. That easy.</p>
+            <p>Want to take your carpentry sills to the next level? Buy one of our custom plans right here at Treehouse Boulder!
+             All plans are fully rendered architectutral drawings developed in collaboration with our
+             carpentry team, rolled up and delivered to your home.
+             All materials lists are included with general cost estimates and reccomendations.</p>
             <p>See how easy it is to create a little tree right in your world. I really recommend you use odorless thinner or your spouse is gonna run you right out into the yard and you'll be working by yourself. Very easy to work these to death. Making all those little fluffies that live in the clouds.</p>
           </Col>
 
 <CardDeck>
- <Card>
+ <Card border="info">
    <Card.Img variant="top" src="assets2/TREEHOUSE-5Depositphotos_174224972_l-2015 Cropped.jpg" />
    <Card.Body>
      <Card.Title>Card title</Card.Title>
@@ -32,7 +35,7 @@ class Plans extends Component {
      <small className="text-muted">Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
- <Card>
+ <Card border="info">
    <Card.Img variant="top" src="assets2/NEWTREEHOUSE-1Depositphotos_61427235_l-2015 Cropped.jpg" />
    <Card.Body>
      <Card.Title>Card title</Card.Title>
@@ -45,7 +48,7 @@ class Plans extends Component {
      <small className="text-muted">Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
- <Card>
+ <Card border="info">
    <Card.Img variant="top" src="assets2/USETHIS2TREEHOUSE-3Depositphotos_135854308_xl-2015 Cropped.jpg" />
    <Card.Body>
      <Card.Title>Card title</Card.Title>
