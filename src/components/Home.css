@@ -40,3 +40,9 @@
 .navbar {
   padding-right: 2px;
 }
+
+.card-background {
+  color: grey;
+  opacity: 90%;
+
+}

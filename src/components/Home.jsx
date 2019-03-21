@@ -65,8 +65,8 @@ export default class Home extends Component {
         </Row> */}
         <Row>
 
-          <CardDeck>
-  <Card>
+  <CardDeck>
+  <Card border="info">
     <Card.Img variant="top" src="assets2/FREEtree-2254979_960_720 Cropped.jpg" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -79,7 +79,7 @@ export default class Home extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card border="info">
     <Card.Img variant="top" src="assets2/USETHISTREEHOUSE-2Depositphotos_31389319_xl-2015 Cropped.jpg"/>
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -92,7 +92,7 @@ export default class Home extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card border="info">
     <Card.Img variant="top" src="assets2/TREEHOUSE-8Depositphotos_5592661_xl-2015 Cropped.jpg"/>
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -109,7 +109,7 @@ export default class Home extends Component {
 </CardDeck>;
 
           <CardDeck>
-  <Card>
+  <Card border="info">
     <Card.Img variant="top" src="assets2/TREEHOUSE-5Depositphotos_174224972_l-2015 Cropped.jpg" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -122,7 +122,7 @@ export default class Home extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card border="info">
     <Card.Img variant="top" src="assets2/NEWTREEHOUSE-1Depositphotos_61427235_l-2015 Cropped.jpg" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -135,7 +135,7 @@ export default class Home extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card border="info">
     <Card.Img variant="top" src="assets2/USETHIS2TREEHOUSE-3Depositphotos_135854308_xl-2015 Cropped.jpg" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
