@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Jumbotron, Card, CardDeck, Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import { Jumbotron, Card, CardDeck, Grid, Row, Col, Image, Button, Container } from 'react-bootstrap';
 import './Home.css';
 import CardComponent from './CardComponent';
 
@@ -8,7 +8,7 @@ export default class Home extends Component {
   render() {
       console.log("hello")
     return (
-      <Container-Fluid>
+      <Container fluid={true}>
         <Jumbotron>
           <br></br>
           <h2>Treehouse Boulder</h2>
@@ -161,7 +161,7 @@ export default class Home extends Component {
 
 
         </Row>
-      </Container-Fluid>
+      </Container>
       /* <Container-Fluid>
       <footer class="fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">

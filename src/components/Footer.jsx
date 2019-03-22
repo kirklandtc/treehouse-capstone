@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavDropdown, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
@@ -9,16 +9,16 @@ import './Footer.css';
 export default class Footer extends React.Component {
   render() {
     return (
-      <Container-Fluid>
-      <Footer class="fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark ">
+      // <Container fluid={true}>
+      <footer class="">
         <div class="container">
           <h3>
           Treehouse Boulder 2019 all rights reserved.
           </h3>
         </div>
-      </Footer>
-    </Container-Fluid>
+      </footer>
+    // </Container>
 
-    );
+  );
   }
 }
