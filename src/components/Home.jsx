@@ -10,7 +10,8 @@ export default class Home extends Component {
     return (
       <Container-Fluid>
         <Jumbotron>
-          <h2>Treehouse</h2>
+          <br></br>
+          <h2>Treehouse Boulder</h2>
           <p>The Best Way to TreeHouse</p>
 
           <p>This painting comes right out of your heart. Clouds are free.
@@ -68,12 +69,12 @@ export default class Home extends Component {
         <Row>
 
   <CardDeck>
-{
+{/* {
   this.props.treehouses.map(treehouse=>{
     return <CardComponent treehouse={treehouse}/>
   })
-}
-  {/* <Card border="info">
+} */}
+  <Card border="info">
     <Card.Img variant="top" src="assets2/FREEtree-2254979_960_720 Cropped.jpg" />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -155,7 +156,7 @@ export default class Home extends Component {
     <Card.Footer>
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
-  </Card> */}
+  </Card>
 </CardDeck>;
 
 

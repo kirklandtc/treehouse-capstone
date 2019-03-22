@@ -11,7 +11,7 @@ class CustomNavbar extends Component {
 
 <Navbar  collapseOnSelect expand="lg" bg="light" variant="dark">
 
-  <a1 className="Navbar.Brand thb"><img src="assets2/thb-logo.svg" height= "40px"/></a1>
+  <a className="Navbar.Brand thb"><img src="assets2/thb-logo.svg" height= "40px"/></a>
 
   {/* <a className="navbar-brand"><img src="thb-logo.svg" alt="logo"></a> */}
 

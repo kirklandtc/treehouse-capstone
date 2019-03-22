@@ -10,13 +10,13 @@ export default class Footer extends React.Component {
   render() {
     return (
       <Container-Fluid>
-      <footer class="fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark ">
+      <Footer class="fixed-bottom navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
           <h3>
           Treehouse Boulder 2019 all rights reserved.
           </h3>
         </div>
-      </footer>
+      </Footer>
     </Container-Fluid>
 
     );
