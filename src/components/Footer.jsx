@@ -10,11 +10,12 @@ export default class Footer extends React.Component {
   render() {
     return (
       // <Container fluid={true}>
-      <footer class="">
+      <footer collapseOnSelect expand="lg" bg="light" variant="dark">
+
         <div class="container">
-          <h3>
+          <h4>
           Treehouse Boulder 2019 all rights reserved.
-          </h3>
+        </h4>
         </div>
       </footer>
     // </Container>

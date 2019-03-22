@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image, Card, CardDeck } from 'react-bootstrap';
+import { Container, Row, Col, Image, Card, CardDeck, Button } from 'react-bootstrap';
 
 import Photo5 from '../assets/USETHISHEADER4blue-sky-1639471 Cropped.jpg';
 import './Plans.css';
@@ -31,7 +31,11 @@ class Plans extends Component {
        additional content. This content is a little bit longer.
      </Card.Text>
    </Card.Body>
+
+
+  <br></br>
    <Card.Footer>
+     <Button variant="info">Buy!</Button>
      <small className="text-muted">Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
@@ -44,7 +48,12 @@ class Plans extends Component {
        content.{' '}
      </Card.Text>
    </Card.Body>
+
+
+  <br></br>
+
    <Card.Footer>
+     <Button variant="info">Buy!</Button>
      <small className="text-muted">Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
@@ -58,11 +67,15 @@ class Plans extends Component {
        show that equal height action.
      </Card.Text>
    </Card.Body>
+
+   <br></br>
    <Card.Footer>
+     <Button variant="info">Buy!</Button>
      <small className="text-muted">Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
-</CardDeck>;
+</CardDeck>
+<br></br>
 
 
 

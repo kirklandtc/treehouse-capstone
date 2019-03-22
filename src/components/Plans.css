@@ -17,3 +17,7 @@
 .container-fluid {
   padding-top: 2em;
 }
+
+Button: {
+  padding-right: 10px;
+}

@@ -114,9 +114,9 @@ export default class Home extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-</CardDeck>;
-
-          <CardDeck>
+</CardDeck>
+<br></br>
+<CardDeck>
   <Card border="info">
     <Card.Img variant="top" src="assets2/TREEHOUSE-5Depositphotos_174224972_l-2015 Cropped.jpg" />
     <Card.Body>
@@ -157,7 +157,8 @@ export default class Home extends Component {
       <small className="text-muted">Last updated 3 mins ago</small>
     </Card.Footer>
   </Card>
-</CardDeck>;
+</CardDeck>
+<br></br>
 
 
         </Row>
