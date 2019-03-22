@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import Photo4 from '../assets/USETHISHEADER@Depositphotos_19710159_xl-2015.jpg';
+import Photo4 from '../assets/THIRD HEADER.jpg';
 
 import './News.css';
 

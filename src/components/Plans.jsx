@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image, Card, CardDeck, Button } from 'react-bootstrap';
 
-import Photo5 from '../assets/USETHISHEADER4blue-sky-1639471 Cropped.jpg';
+import Photo5 from '../assets/SECOND HEADER.jpg';
 import './Plans.css';
 
 
@@ -36,7 +36,7 @@ class Plans extends Component {
   <br></br>
    <Card.Footer>
      <Button variant="info">Buy!</Button>
-     <small className="text-muted">Last updated 3 mins ago</small>
+     <small className="text-muted">  Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
  <Card border="info">
@@ -54,7 +54,7 @@ class Plans extends Component {
 
    <Card.Footer>
      <Button variant="info">Buy!</Button>
-     <small className="text-muted">Last updated 3 mins ago</small>
+     <small className="text-muted">  Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
  <Card border="info">
@@ -71,7 +71,7 @@ class Plans extends Component {
    <br></br>
    <Card.Footer>
      <Button variant="info">Buy!</Button>
-     <small className="text-muted">Last updated 3 mins ago</small>
+     <small className="text-muted">  Last updated 3 mins ago</small>
    </Card.Footer>
  </Card>
 </CardDeck>

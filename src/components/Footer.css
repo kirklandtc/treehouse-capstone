@@ -5,10 +5,12 @@ footer {
   width: 100%;
   height: min-content;
   z-index: 1;
-  text-color: white;
+  text: white;
 }
 
-
+.container {
+  text: white;
+}
 .navbar-default {
   background-image: none;
   border: 2px, black;

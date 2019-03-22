@@ -3,6 +3,11 @@ import { Container, Col, Image } from 'react-bootstrap'
 import Photo2 from '../assets/USETHISHEADERDepositphotos_131701088_xl-2015 Cropped.jpg';
 import './About.css'
 
+
+
+
+
+
 export default class About extends Component {
   render() {
     return (

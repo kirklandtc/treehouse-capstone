@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Col, Image, Row, Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Photo1 from '../assets/USETHISHEADER$417352-unsplash Cropped.jpg';
+import Photo1 from '../assets/MAIN HEADER.jpg';
 import './Contact.css';
 
 class Contact extends Component {
@@ -73,7 +73,7 @@ class Contact extends Component {
             </Form.Row>
 
             <Form.Group id="formGridCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
+              {/* <Form.Check type="checkbox" label="Check me out" /> */}
               </Form.Group>
 
                 {/* <Button variant="primary" type="submit"> */}
@@ -83,7 +83,9 @@ class Contact extends Component {
               </Form>
             </Col>
         </Container-Fluid>
+          <br></br>
       </div>
+
     )
   }
 }
