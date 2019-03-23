@@ -9,7 +9,7 @@ footer {
 }
 
 .container {
-  text: white;
+  text: blue
 }
 .navbar-default {
   background-image: none;
@@ -40,7 +40,7 @@ footer {
 }
 
 .thb{
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {

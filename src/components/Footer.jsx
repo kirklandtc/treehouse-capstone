@@ -12,13 +12,11 @@ export default class Footer extends React.Component {
       // <Container fluid={true}>
       <footer collapseonselect bg="light" variant="light">
 
+          <div className="container thb">
 
-        <div className="container">
-          <div class="p-2 mb-1 text-white">© Treehouse Boulder 2019</div>
 
-        {/* <h5>
-          © Treehouse Boulder 2019
-        </h5> */}
+          <div className="p-1 mb-1 text-white"> © Treehouse Boulder 2019   <img src="assets2/Colorado_flag.png" height= "25px"/></div>
+
         </div>
       </footer>
     // </Container>

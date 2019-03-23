@@ -27,9 +27,9 @@ class CustomNavbar extends Component {
 
     <Nav className="mr-auto">
       {/* <Nav.Link href="#features">Features</Nav.Link> */}
-      <Navbar.Brand eventKey={2} as={Link} href="/about" to="/about">
+    <Navbar.Brand eventKey={2} as={Link} href="/about" to="/about">
         About
-     </Navbar.Brand>
+    </Navbar.Brand>
 
      <Navbar.Brand eventKey={3} as={Link} href="/news" to="/news">
         Build

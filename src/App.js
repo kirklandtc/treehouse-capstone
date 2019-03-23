@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   async componentDidMount(){
-  const data=await fetch('http://localhost:3000/treehouses')
+  const data=await fetch('http://localhost:3005/treehouses')
   const treehouses=await data.json()
   this.setState({
     treehouses:treehouses

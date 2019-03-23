@@ -23,7 +23,7 @@ export default class About extends Component {
 
           </Col>
         </Container-Fluid>
-        <Image src="assets2/carpenter-carpentry-close-up-1094770 Cropped (1).jpg" className="kitten" fluid />
+        <Image src="assets2/carpenter-carpentry-close-up-1094770 Cropped (1).jpg" className="kitten" fluid className="shadow-lg p-0 mb-5"/>
       </div>
 
     )

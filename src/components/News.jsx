@@ -20,7 +20,8 @@ class News extends Component {
 
           </Col>
         </Container-Fluid>
-        <Image src="assets2/board-carpenter-carpentry-271628 Cropped (1).jpg" className="kitten" fluid />
+
+        <Image src="assets2/board-carpenter-carpentry-271628 Cropped (1).jpg" className="kitten" fluid className="shadow-lg p-0 mb-5"/>
       </div>
     )
   }
