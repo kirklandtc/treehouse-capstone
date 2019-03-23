@@ -2,16 +2,35 @@ import React, { Component } from 'react';
 import { Container, Col, Image, Card, CardColumns } from 'react-bootstrap'
 import Photo2 from '../assets/MOUNTAIN HEADER.jpg';
 import './Reviews.css'
-
-
+import ReviewsJunior from './ReviewsJunior';
 
 
 
 
 export default class Reviews extends Component {
+
+  state={
+    reviews:[]
+  }
+
+  async componentDidMount(){
+  const data=await fetch('http://localhost:3005/reviews')
+  const reviews=await data.json()
+  this.setState({
+    reviews:reviews
+  })
+  console.log("hello",reviews)
+      console.log("this.state[0].body",this.state.reviews[0].body)
+}
+
+
+
   render() {
+
+
     return (
       <div>
+
         <Image src={Photo2} className="header-image" />
         <Container-Fluid>
           <Col xs={12} sm={8} smOffset={2}>
@@ -25,6 +44,12 @@ export default class Reviews extends Component {
         </Container-Fluid>
 
         <CardColumns>
+          <ReviewsJunior
+            reviews={this.state.reviews}
+            review0={this.state.reviews[0]}
+            review1={this.state.reviews[1]}
+            review2={this.state.reviews[2]}
+          />
 
 
           {/* <Card>
@@ -40,49 +65,6 @@ export default class Reviews extends Component {
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer>
           </Card> */}
-          <Card bg="info" text="white" className="text-center p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.
-              </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
-
-          <Card bg="info" text="white" className="text-center p-3">
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text>
-                This card has supporting text below as a natural lead-in to additional
-                content.{' '}
-              </Card.Text>
-              <Card.Text>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          {/* <Card>
-            <Card.Img src="holder.js/100px160" />
-          </Card> */}
-          <Card bg="info" text="white" className="text-center p-3">
-            <blockquote className="blockquote mb-0 card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.
-              </p>
-              <footer className="blockquote-footer">
-                <small className="text-muted">
-                  Someone famous in <cite title="Source Title">Source Title</cite>
-                </small>
-              </footer>
-            </blockquote>
-          </Card>
 
           <Card bg="info" text="white" className="text-center p-3">
             <Card.Body>

@@ -10,6 +10,7 @@ import Plans from './components/Plans';
 import Footer from './components/Footer';
 import Reviews from './components/Reviews';
 
+
 class App extends Component {
 
   state={
@@ -24,6 +25,9 @@ class App extends Component {
   })
   console.log("hello",treehouses)
 }
+
+
+
   render() {
     console.log(this.state)
     return (
