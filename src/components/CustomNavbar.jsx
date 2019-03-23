@@ -44,6 +44,11 @@ class CustomNavbar extends Component {
 
      </Navbar.Brand>
 
+     <Navbar.Brand eventKey={6} as={Link} href="/reviews" to="/reviews">
+        Reviews
+
+     </Navbar.Brand>
+
      </Nav>
 
   </Navbar.Collapse>

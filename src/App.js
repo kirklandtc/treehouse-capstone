@@ -8,6 +8,7 @@ import Navbar from './components/CustomNavbar';
 import Contact from './components/Contact';
 import Plans from './components/Plans';
 import Footer from './components/Footer';
+import Reviews from './components/Reviews';
 
 class App extends Component {
 
@@ -34,6 +35,7 @@ class App extends Component {
           <Route path="/news" component={News} />
           <Route path="/contact" component={Contact} />
           <Route path="/Plans" component={Plans} />
+          <Route path="/Reviews" component={Reviews} />
           <Footer />
         </div>
       </Router>
