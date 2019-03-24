@@ -65,7 +65,7 @@ export default class Reviews extends Component {
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer>
           </Card> */}
-
+{/*
           <Card bg="info" text="white" className="text-center p-3">
             <Card.Body>
               <Card.Title>Card title</Card.Title>
@@ -78,7 +78,7 @@ export default class Reviews extends Component {
                 <small className="text-muted">Last updated 3 mins ago</small>
               </Card.Text>
             </Card.Body>
-          </Card>
+          </Card> */}
 
         </CardColumns>
         <br></br>

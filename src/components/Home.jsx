@@ -14,58 +14,20 @@ export default class Home extends Component {
           <h2>Treehouse Boulder</h2>
           <p>The Best Way to TreeHouse</p>
 
-          <p>This painting comes right out of your heart. Clouds are free.
-            They just float around the sky all day and have fun.
-            Think about a cloud. Just float around and be there. The little tiny Tim easels will let you down.
-            Isn't that fantastic? Mix your color marbly don't mix it dead.</p>
+          <p>Welcome to Treehouse Boulder- your source for the finest hand-crafted custom treehouse available!
+            Take a few minutes to explore our treehouse options for your entire family.
+            Treehouses aren't just for kids anymore! The sky is the limit (or maybe not) when it comes to what we can build in that empty tree in your backyard...</p>
 
-          <p>Tree trunks grow however makes them happy.
-            We must be quiet, soft and gentle. There isn't a rule.
-            You just practice and find out which way works best for you.</p>
+          <p>The appeal of the treehouse is timeless, for some it instantly returns them to their childhood.
+            For others it becomes a place to relax when their kids are elsewhere. What can we build for for you?</p>
+
+          <p>Browse our current designs below, keeping in mind that we can customize any of these models or create something totally unique!</p>
 
           <Link to="/about">
             <Button variant="info">Learn More</Button>
           </Link>
         </Jumbotron>
-        {/* <Row className="show-grid text-center">
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets2/USETHIS2TREEHOUSE-3Depositphotos_135854308_xl-2015 Cropped.jpg" square className="profile-pic"/>
-            <h3>Alpha</h3>
-            <p><p>Tree trunks grow however makes them happy. We must be quiet, soft and gentle. There isn't a rule. You just practice and find out which way works best for you.</p>
-          </p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets2/USETHIS2TREEHOUSE-3Depositphotos_135854308_xl-2015 Cropped.jpg" square className="profile-pic"/>
-            <h3>Bravo</h3>
-            <p><p>Tree trunks grow however makes them happy. We must be quiet, soft and gentle. There isn't a rule. You just practice and find out which way works best for you.</p>
-          </p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets2/TREEHOUSE-5Depositphotos_174224972_l-2015 Cropped.jpg" square className="profile-pic"/>
-            <h3>Charlie</h3>
-            <p><p>Tree trunks grow however makes them happy. We must be quiet, soft and gentle. There isn't a rule. You just practice and find out which way works best for you.</p>
-          </p>
-          </Col>
-        </Row>
-        <Row className="show-grid text-center">
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets2/NEWTREEHOUSE-1Depositphotos_61427235_l-2015 Cropped.jpg" square className="profile-pic"/>
-            <h3>Delta</h3>
-            <p><p>Tree trunks grow however makes them happy. We must be quiet, soft and gentle. There isn't a rule. You just practice and find out which way works best for you.</p>
-          </p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets2/TREEHOUSE-8Depositphotos_5592661_xl-2015 Cropped.jpg" square className="profile-pic"/>
-            <h3>Echo</h3>
-            <p>This is the treehouse for the child who has everything</p>
-          </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets2/FREEtree-2254979_960_720 Cropped.jpg" square className="profile-pic"/>
-            <h3>Foxtrot</h3>
-            <p><p>Tree trunks grow however makes them happy. We must be quiet, soft and gentle. There isn't a rule. You just practice and find out which way works best for you.</p>
-          </p>
-          </Col>
-        </Row> */}
+
         <Row>
 
   <CardDeck>
@@ -77,41 +39,41 @@ export default class Home extends Component {
   <Card border="info">
     <Card.Img variant="top" src="assets2/FREEtree-2254979_960_720 Cropped.jpg" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>The Paramount</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        Our most rustic design, The Paramount
+        is built using reclaimed Colorado snow fencing. This treehouse features a true staircase
+        providing a grand entry into the main lobby!
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Starting at $5,500</small>
     </Card.Footer>
   </Card>
   <Card border="info">
     <Card.Img variant="top" src="assets2/USETHISTREEHOUSE-2Depositphotos_31389319_xl-2015 Cropped.jpg"/>
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>The Sierra</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        This treehouse is truly something special. This is one of our designs that includes a porch giving The Sierra
+        a dramatic viewpoint over the expanse of your backyard. We've had many treehouse owners highly customize this design.{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Starting at $5,500</small>
     </Card.Footer>
   </Card>
   <Card border="info">
     <Card.Img variant="top" src="assets2/TREEHOUSE-8Depositphotos_5592661_xl-2015 Cropped.jpg"/>
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>The Olympic</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+        A truly robust and dynamic design, The Olympic provides both light and space in a treehouse that can accommodate a range of different trees
+        -or even a freestanding platform.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Starting at $6,500</small>
     </Card.Footer>
   </Card>
 </CardDeck>
@@ -120,41 +82,41 @@ export default class Home extends Component {
   <Card border="info">
     <Card.Img variant="top" src="assets2/TREEHOUSE-5Depositphotos_174224972_l-2015 Cropped.jpg" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>The Universal</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+        One of our most popular designs, The Universal fits perfectly in the corner of nearly any backyard.
+        Shown with an optional half-door, we offer a number of exterior finish choices to enhance your property value.
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Starting at $6,500</small>
     </Card.Footer>
   </Card>
   <Card border="info">
     <Card.Img variant="top" src="assets2/NEWTREEHOUSE-1Depositphotos_61427235_l-2015 Cropped.jpg" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>The Commander</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+        Named The Commander for a reason, this design incorporates a
+        half-wall on one side to encorage air to ground (imaginary) attacks!{' '}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Starting at $5,500</small>
     </Card.Footer>
   </Card>
   <Card border="info">
     <Card.Img variant="top" src="assets2/USETHIS2TREEHOUSE-3Depositphotos_135854308_xl-2015 Cropped.jpg" />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>The Vanderbilt</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+        Our top of the line model, The Vanderbilt demonstrates what true opulence should
+        look like (in a treehouse of course). Standard features include upgraded wood choices a porch (of course),
+        and even shutters that close over the windows!
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Starting at $7,500</small>
     </Card.Footer>
   </Card>
 </CardDeck>

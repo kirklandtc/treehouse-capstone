@@ -18,7 +18,7 @@ const ReviewsJunior = (props) => {
             {review.body}{' '}
           </Card.Text>
           <Card.Text>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <small className="text-muted">Becky - Westminister</small>
           </Card.Text>
         </Card.Body>
       </Card>

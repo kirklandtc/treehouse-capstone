@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Col, Image, Row, Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Photo1 from '../assets/MAIN HEADER.jpg';
+import Photo1 from '../assets/MAIN HEADER ALPHA Cropped.jpg';
 import './Contact.css';
 
 class Contact extends Component {
