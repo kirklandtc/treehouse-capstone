@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Col, Image, Row, Form, Button } from 'react-bootstrap';
+import { Container, Col, Image, Row, Form, Button, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Photo1 from '../assets/MAIN HEADER ALPHA Cropped.jpg';
 import './Contact.css';
@@ -13,9 +13,26 @@ class Contact extends Component {
         <Container-Fluid>
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
-            <h3>Contact Us Here!</h3>
-            <p>If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. Zip. That easy. Just think about these things in your mind and drop em' on canvas. We need a shadow side and a highlight side. Don't kill all your dark areas - you need them to show the light. Just relax and let it flow. That easy.</p>
-            <p>See how easy it is to create a little tree right in your world. I really recommend you use odorless thinner or your spouse is gonna run you right out into the yard and you'll be working by yourself. Very easy to work these to death. Making all those little fluffies that live in the clouds.</p>
+            <h3>*Contact Us Here!</h3>
+            <Card style={{ width: '18rem' }}>
+              <Card.Body>
+                <Card.Title></Card.Title>
+                <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+                <Card.Text>
+                  <p>Treehouse Boulder
+
+          100 Elk Avenue
+          Boulder, CO 80040
+          Phone: (303) 555-5510
+          Email: treehouseboulder@gmail.com</p>
+                </Card.Text>
+
+              </Card.Body>
+            </Card>
+            <br></br>
+
+
+            <p>Fill out the form below to have the Treehouse Boulder team reach out to you directly. We promise to get back to you within 2 business days.</p>
 
 
           </Col>
@@ -47,10 +64,6 @@ class Contact extends Component {
               <Form.Control placeholder="1234 Main St" />
             </Form.Group>
 
-            <Form.Group controlId="formGridAddress2">
-              <Form.Label>Address 2</Form.Label>
-              <Form.Control placeholder="Apartment, studio, or floor" />
-            </Form.Group>
 
             <Form.Row>
               <Form.Group as={Col} controlId="formGridCity">
@@ -78,6 +91,10 @@ class Contact extends Component {
 
                 {/* <Button variant="primary" type="submit"> */}
                 <Button variant="info">Submit!</Button>
+
+
+
+
 
                 {/* </Button> */}
               </Form>

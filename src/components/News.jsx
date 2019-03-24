@@ -14,9 +14,20 @@ class News extends Component {
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
             <h3>Build</h3>
-            <p>If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. Zip. That easy. Just think about these things in your mind and drop em' on canvas. We need a shadow side and a highlight side. Don't kill all your dark areas - you need them to show the light. Just relax and let it flow. That easy.</p>
-            <p>See how easy it is to create a little tree right in your world. I really recommend you use odorless thinner or your spouse is gonna run you right out into the yard and you'll be working by yourself. Very easy to work these to death. Making all those little fluffies that live in the clouds.</p>
+            <br></br>
+            <p>-We discuss your ideas by phone or in person (preferred), and address your budget for the ultimate tree house</p>
+            <p>-We meet to determine a suitable tree (or stand-alone location) for the treehouse within your yard</p>
 
+            <p>-We discuss available features and any options</p>
+            <p>-Treehouse Boulder will send all sketches and a custom proposal for the project, including a materials list and timing</p>
+            <p>-When your family is ready to go we ask for a 10% deposit and choose a start date for kicking off your project</p>
+            <p>-Construction will typically be completed in under 7 days, depending if any permits were needed prior to construction</p>
+            <p>-We meet for a final walk-through and safety inspection, making sure all constructon meets your expectations</p>
+            <div>
+              <br></br>
+            <p>We will of course discuss any potential concerns prior to starting construction. Again we want this to be a
+              great experience for you and your family -and we want your neighbors to be jealous!</p>
+            </div>
 
           </Col>
         </Container-Fluid>

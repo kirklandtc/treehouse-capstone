@@ -12,7 +12,7 @@ export default class Home extends Component {
         <Jumbotron>
           <br></br>
           <h2>Treehouse Boulder</h2>
-          <p>The Best Way to TreeHouse</p>
+          <p>The best way to treehouse</p>
 
           <p>Welcome to Treehouse Boulder- your source for the finest hand-crafted custom treehouse available!
             Take a few minutes to explore our treehouse options for your entire family.
