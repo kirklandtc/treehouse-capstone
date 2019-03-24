@@ -36,8 +36,8 @@ export default class Reviews extends Component {
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
             <h3>Reviews: the Treehouse Boulder team </h3>
-            <p>If you overwork it you become a cloud killer. There's nothing worse than a cloud killer. Zip. That easy. Just think about these things in your mind and drop em' on canvas. We need a shadow side and a highlight side. Don't kill all your dark areas - you need them to show the light. Just relax and let it flow. That easy.</p>
-            <p>See how easy it is to create a little tree right in your world. I really recommend you use odorless thinner or your spouse is gonna run you right out into the yard and you'll be working by yourself. Very easy to work these to death. Making all those little fluffies that live in the clouds.</p>
+            <p>Read reviews from some of our fantastic customers below! We've built over 80 treehouses in the Boulder/Denver area but this section is new to our website -so check back often to see the latest updates!.</p>
+            <p></p>
 
 
           </Col>
@@ -83,7 +83,7 @@ export default class Reviews extends Component {
         </CardColumns>
         <br></br>
 
-        <Image src="assets2/carpenter-carpentry-close-up-1094770 Cropped (1).jpg" className="kitten" fluid className="shadow-lg p-0 mb-5"/>
+        <Image src="assets2/DRILL.jpg" className="kitten" fluid className="shadow-lg p-0 mb-5"/>
       </div>
 
     )
