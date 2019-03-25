@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Col, Image, Card, CardColumns } from 'react-bootstrap'
-import Photo2 from '../assets/MOUNTAIN HEADER.jpg';
+import Photo2 from '../assets/55MOUNTAINHEADER Cropped.jpg';
 import './Reviews.css'
 import ReviewsJunior from './ReviewsJunior';
 

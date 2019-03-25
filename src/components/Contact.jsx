@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Col, Image, Row, Form, Button, Card } from 'react-bootstrap';
+import { Container, Col, Image, Row, Form, Button, Card, MBDIcon } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Photo1 from '../assets/MAIN HEADER ALPHA Cropped.jpg';
 import './Contact.css';
@@ -14,22 +14,30 @@ class Contact extends Component {
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
             <h3>*Contact Us Here!</h3>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '29rem' }}>
               <Card.Body>
                 <Card.Title></Card.Title>
-                <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+                <Card.Subtitle id="alpha" className="mb-2 text-muted"></Card.Subtitle>
                 <Card.Text>
-                  <p>Treehouse Boulder
+                  <p>Treehouse Boulder</p>
 
-          100 Elk Avenue
-          Boulder, CO 80040
-          Phone: (303) 555-5510
-          Email: treehouseboulder@gmail.com</p>
+          <p>100 Elk Avenue
+          Boulder, CO 80040</p>
+          <p>Phone: (303) 555-5510</p>
+          <p>Email: treehouseboulder@gmail.com</p>
+
+
+
+
                 </Card.Text>
-
               </Card.Body>
             </Card>
             <br></br>
+
+
+
+
+
 
 
             <p>Fill out the form below to have the Treehouse Boulder team reach out to you directly. We promise to get back to you within 2 business days.</p>
@@ -93,7 +101,8 @@ class Contact extends Component {
                 <Button variant="info">Submit!</Button>
 
 
-
+                {/* <MDBIcon icon="cog" spin size="3x" fixed />
+                <span className="sr-only">Loading...</span> */}
 
 
                 {/* </Button> */}
