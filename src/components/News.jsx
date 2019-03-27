@@ -24,7 +24,7 @@ class News extends Component {
             <p>-Treehouse Boulder will send all sketches and a custom proposal for the project, including a materials list and timing</p>
             <p>-When your family is ready to go we ask for a 10% deposit and choose a start date for kicking off your project</p>
             <p>-Construction will typically be completed in under 7 days, depending if any permits were needed prior to construction</p>
-            <p>-We meet for a final walk-through and safety inspection, making sure all constructon meets your expectations</p>
+            <p>-We meet for a final walk-through and safety inspection, making sure all construction meets your expectations</p>
               </Card.Body>
             </Card>
             <div>

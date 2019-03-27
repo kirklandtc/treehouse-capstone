@@ -14,7 +14,7 @@ class Contact extends Component {
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
             <h3>*Contact Us Here!</h3>
-            <Card style={{ width: '29rem' }}>
+            <Card style={{ width: '18rem' }}>
               <Card.Body>
                 <Card.Title></Card.Title>
                 <Card.Subtitle id="alpha" className="mb-2 text-muted"></Card.Subtitle>
