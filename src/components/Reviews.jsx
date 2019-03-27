@@ -15,7 +15,7 @@ export default class Reviews extends Component {
   }
 
   async componentDidMount(){
-  const data=await fetch('http://localhost:3005/reviews')
+  const data=await fetch('https://treehousecapstoneback.herokuapp.com/reviews')
   const reviews=await data.json()
   this.setState({
     reviews:reviews
