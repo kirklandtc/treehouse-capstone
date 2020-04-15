@@ -91,7 +91,7 @@ class Contact extends Component {
                 <Form.Label>Zip</Form.Label>
                 <Form.Control />
               </Form.Group>
-            </Form.Row>
+             </Form.Row>
 
             <Form.Group id="formGridCheckbox">
               {/* <Form.Check type="checkbox" label="Check me out" /> */}

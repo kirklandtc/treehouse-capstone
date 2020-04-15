@@ -9,7 +9,7 @@ class Plans extends Component {
   render() {
     return (
       <div>
-        <Image src={Photo5} className="header-image" />
+        <Image src={Photo5} className="header-image" fluid/>
         <Container-Fluid>
           <Col xs={12} sm={8} smOffset={2}>
             {/* <Image src="assets/USETHIScarpenter-carpentry-close-up-1094770 Cropped.jpg" className="about-profile-pic" /> */}
